@@ -12,7 +12,7 @@ function age () {
   if ((userInput >= 18) && (day === 'Monday' || day === 'Tuesday' || day === 'Wednesday' || day === 'Thursday' || day === 'Friday')) {
     document.getElementById('answer').innerHTML = 'Time for work!'
   } else if ((userInput <= 18) && (day === 'Monday' || day === 'Tuesday' || day === 'Wednesday' || day === 'Thursday' || day === 'Friday')) {
-  document.getElementById('answer').innerHTML = 'Time to go to school!'
+    document.getElementById('answer').innerHTML = 'Time to go to school!'
   } else {
     document.getElementById('answer').innerHTML = 'Its the weekend! Time to relax!'
   }
